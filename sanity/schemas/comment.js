@@ -13,6 +13,10 @@ export default {
       title: 'Profile Image',
       type: 'string'
     },
+    { name: 'username',
+      title: 'Username',
+      type: 'string',
+    },
     {
       name: 'tweet',
       title: 'Tweet',

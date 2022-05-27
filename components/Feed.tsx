@@ -16,7 +16,7 @@ function Feed({tweets: tweetsProp}: Props) {
 
   const handleRefresh = async () => {
     const refreshToast = toast.loading('Refreshing...')
-    toast("hello")
+
     const tweets = await fetchTweets()
 
     setTweets(tweets)
